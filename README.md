@@ -18,11 +18,10 @@
 * 代码有很多地方很乱，没有进行优化，预计19年继续改进。
 
 ## 应用程序界面以及动画制作
-![](https://github.com/EvenYangyufan/HiBox/raw/image/1526970146368.gif)
-![](https://github.com/EvenYangyufan/HiBox/raw/image/1526970233125.gif)
+![image](https://github.com/EvenYangyufan/HiBox/image/1526970146368.gif)
+![image](https://github.com/EvenYangyufan/HiBox/image/1526970233125.gif)
 
 #### 最后：
-
 
 * 感谢大佬魏以及要加方和刘姥姥对我技术上的指导哈哈哈哈
 * 有任何想法也可以留言
