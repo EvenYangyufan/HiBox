@@ -26,7 +26,7 @@ import com.work.yangyufan.hibox.sqlHelper.MyDatabaseHelper;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-//主要功能实现类
+//主界面
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, BottomNavigationBar.OnTabSelectedListener {
 
     public String account;

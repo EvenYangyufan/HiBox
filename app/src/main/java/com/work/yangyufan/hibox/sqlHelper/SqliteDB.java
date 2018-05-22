@@ -187,8 +187,6 @@ public class SqliteDB {
         return record;
     }
 
-
-    //修改数据库中的个人信息
     public int  updateUser(User user) {
         if (user != null) {
             Cursor cursor = db.rawQuery("select * from User where username=?", new String[]{user.getUsername().toString()});
