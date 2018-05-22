@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/part3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/add"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_scan"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/input_rePsw6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/sao"
+                android:padding="5dip"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/getCode"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#CCCCCC"
+                android:textSize="16sp"
+                android:hint="@string/need"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:src="@mipmap/ic_go" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/input_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:inputType="textMultiLine"
+                android:hint="描述..."
+                android:lines="3"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw2"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/input_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:hint="@string/label"
+                android:padding="5dip"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw3"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <EditText
+                android:id="@+id/input_position"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:hint="@string/position"
+                android:padding="5dip"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw33"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center"
+            android:background="@drawable/selector_list_view_item"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/input_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="@string/ok"
+                android:textColor="#318430"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw29"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center"
+            android:background="@drawable/selector_list_view_item"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/input_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="#00000000"
+                android:text="@string/delete"
+                android:textColor="#FF0000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

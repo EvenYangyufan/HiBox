@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/part3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/loading3"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/version"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/input_rePsw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/v3"
+                android:padding="5dip"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_rePsw2"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/input_rePsw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/v2"
+                android:padding="5dip"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_4"
+            android:background="@drawable/radius_drawable_bg"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/input_rePsw3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/v1"
+                android:padding="5dip"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+    </LinearLayout>
+
+</LinearLayout>

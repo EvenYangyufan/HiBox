@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/part3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/set1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:orientation="vertical"
+        android:layout_marginTop="40dip">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:gravity="center_vertical"
+            android:background="@drawable/selector_list_view_item"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_marginStart="15dip"
+                android:layout_marginLeft="15dip"
+                android:src="@mipmap/input2"/>
+
+            <TextView
+                android:id="@+id/id1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dip"
+                android:layout_marginLeft="15dip"
+                android:text="@string/about"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="63dip"
+                android:layout_marginLeft="63dip"
+                android:src="@mipmap/ic_go" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_version"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:background="@drawable/selector_list_view_item"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/input_rePsw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/check"
+                android:padding="5dip"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="270dip"
+                android:layout_marginLeft="270dip"
+                android:src="@mipmap/ic_go" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_about"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:background="@drawable/selector_list_view_item"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/input_rePsw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/about"
+                android:padding="5dip"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="270dip"
+                android:layout_marginLeft="270dip"
+                android:src="@mipmap/ic_go" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radius_drawable_bg"
+        android:layout_marginTop="30dip">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+        <LinearLayout
+            android:id="@+id/input_layout_4"
+            android:background="@drawable/selector_list_view_item"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/input_rePsw3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginStart="10dip"
+                android:background="#00000000"
+                android:text="@string/settings"
+                android:padding="5dip"
+                android:textSize="16sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginStart="270dip"
+                android:layout_marginLeft="270dip"
+                android:src="@mipmap/ic_go" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#DBDBDB" />
+    </LinearLayout>
+
+</LinearLayout>

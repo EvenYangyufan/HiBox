@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">HiBox</string>
+    <string name="signUp">Sign Up</string>
+    <string name="Login">Login</string>
+    <string name="input1">邮箱</string>
+    <string name="input2">地区</string>
+    <string name="input3">昵称</string>
+    <string name="input4">电话</string>
+    <string name="input5">密码</string>
+    <string name="input6">确认密码</string>
+    <string name="sign">注册账号</string>
+
+    <string name="item_home">Home</string>
+    <string name="item_location">Location</string>
+    <string name="item_like">Like</string>
+    <string name="item_person">Me</string>
+
+    <string name="tips">Hello</string>
+    
+    <string name="settings">更改设置</string>
+    <string name="set">设置</string>
+    <string name="about">关于我们</string>
+    <string name="check">检查版本</string>
+    <string name="set1">我</string>
+    <string name="home1">主页</string>
+    <string name="add">添加</string>
+    <string name="sao">点击扫码</string>
+    <string name="need">手动输入</string>
+    <string name="label">选择标签</string>
+    <string name="position">放置位置</string>
+    <string name="delete">清空信息</string>
+    <string name="ok">确认保存</string>
+    <string name="record">没有记录</string>
+    <string name="ma">扫码编号</string>
+    <string name="hibox">关于HiBox</string>
+    <string name="hiboxV">HiBox 1.1.1</string>
+
+    <string name="developer">开发者：杨雨璠</string>
+    <string name="app_about">开发灵感：日常生活中琐碎的事物过多</string>
+    <string name="app_phone">咨询方式：457353325@qq.com</string>
+
+    <string name="version">历史版本</string>
+    <string name="v1">•HiBox 1.0.0 for Android(测试版) 全新发布 2018/05/15</string>
+    <string name="v2">•HiBox 1.0.1 for Android(测试版) 全新发布 2018/05/20</string>
+    <string name="v3">•HiBox 1.1.1 for Android 全新发布 2018/05/25</string>
+
+    <string name="edit">编辑</string>
+    <string name="clear">删除</string>
+    <drawable name="clr_normal">#ffffff</drawable>
+    <drawable name="clr_pressed">#D9D9D9</drawable>
+
+    <string name="exit">退出账号</string>
+    <string name="remember">Remember password</string>
+    <string name="info">个人信息</string>
+    <string name="info2">个人中心</string>
+    <string name="bian">编辑</string>
+</resources>
